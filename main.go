@@ -1,5 +1,8 @@
 package main
 
+import "github.com/apalyukha/archiver-on-go/cmd"
+
 func main() {
-	// cmd.Execute()
+	// archiver pack vlc <path to file>
+	cmd.Execute()
 }
